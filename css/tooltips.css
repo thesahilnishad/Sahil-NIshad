@@ -1,0 +1,139 @@
+.nav-menu-icon > a{
+text-decoration: none;
+}
+
+/* home button` */
+#hometool{
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: f2;
+    visibility: hidden;
+    
+}
+#hometip{
+    content: "";
+    height:0;
+    width:0;
+    border-left: 5px solid  transparent;
+    border-right: 5px  solid transparent;
+    border-bottom: 5px solid white;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 17px;
+    color: white;
+}
+#home:hover #hometool{
+visibility: visible;
+}
+
+
+/* projects */
+
+#projecttool{
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: f2;
+    visibility: hidden;
+    
+}
+#projecttip{
+    content: "";
+    height:0;
+    width:0;
+    border-left: 5px solid  transparent;
+    border-right: 5px  solid transparent;
+    border-bottom: 5px solid white;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 17px;
+    color: white;
+}
+#project:hover #projecttool{
+visibility: visible;
+}
+
+/* skills */
+#skillstool{
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: f2;
+    visibility: hidden;
+    
+}
+#skillstip{
+    content: "";
+    height:0;
+    width:0;
+    border-left: 5px solid  transparent;
+    border-right: 5px  solid transparent;
+    border-bottom: 5px solid white;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 17px;
+    color: white;
+}
+#skills:hover #skillstool{
+visibility: visible;
+}
+
+
+/* resume */
+#contacttool{
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: f2;
+    visibility: hidden;
+    
+}
+#contacttip{
+    content: "";
+    height:0;
+    width:0;
+    border-left: 5px solid  transparent;
+    border-right: 5px  solid transparent;
+    border-bottom: 5px solid white;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 17px;
+    color: white;
+}
+#contact2:hover #contacttool{
+visibility: visible;
+}
+
+
+
+
+/* contact */
+#resumetool{
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: f2;
+    visibility: hidden;
+    
+}
+#resumetip{
+    content: "";
+    height:0;
+    width:0;
+    border-left: 5px solid  transparent;
+    border-right: 5px  solid transparent;
+    border-bottom: 5px solid white;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 17px;
+    color: white;
+}
+#resume:hover #resumetool{
+visibility: visible;
+}
